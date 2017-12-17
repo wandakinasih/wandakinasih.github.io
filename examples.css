@@ -234,8 +234,8 @@ p{
  * --------------------------------------- */
 #section1 h1{
     color: #9e0000;
-    font-size: 2.5em;
-    font-family: Myriad Pro;
+    font-size: 4em;
+    font-family: "Sweetly Broken", Verdana, Tahoma;
     font-weight: bold;
 }
 #section1 p{
@@ -275,7 +275,7 @@ p{
 	bottom: 0;
 }
 #section3 p{
-	color: #757575;
+	color: #e6e6e6;
 }
 
 #colors2,
@@ -341,3 +341,21 @@ p{
     padding: 1.1em;
 }
 
+@font-face {
+    font-family: "Caviar Dreams";
+    src: url(fonts/CaviarDreams.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "Sweetly Broken";
+    src: url(fonts/SweetlyBroken.ttf) format("truetype");
+}
+
+p.title { 
+    font-family: "Caviar Dreams", Verdana, Tahoma;
+}
+
+iframe.maps{
+	width: 40em;
+	height: 30em;
+}
