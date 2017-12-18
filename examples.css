@@ -250,6 +250,11 @@ p{
 
 /* Section 2
  * --------------------------------------- */
+ #section2 h1{
+    font-family: "Caviar Dreams", Verdana, Tahoma;
+    font-weight: bold;
+}
+
 #section2 h1,
 #section2 p{
 	z-index: 3;
@@ -264,13 +269,22 @@ p{
 	position: absolute;
 	height: 413px;
 	width: 258px;
-	background-image: url(imgs/colors.gif);
 	background-repeat: no-repeat;
+}
+
+#section2{
+	
+	background-color: #191919;
 }
 
 /* Section 3
  * --------------------------------------- */
-#section3 #colors{
+ #section3 h1{
+    font-family: "Caviar Dreams", Verdana, Tahoma;
+    font-weight: bold;
+}
+ 
+ #section3 #colors{
 	left: 60px;
 	bottom: 0;
 }

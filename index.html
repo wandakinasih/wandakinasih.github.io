@@ -24,7 +24,7 @@
 	          	direction: 'horizontal',
 	    		menu: '#menu',
 	    		anchors: ['page1', 'page2', 'page3', 'page4'],
-			    sectionsColor: ['#dec092', '#535353', '#2C3E50', '#39C'],
+			    sectionsColor: ['#dec092', '#535353', '#2C3E50', '#333333'],
 			    navigation: {
 			    	'position': 'right',
 			   		'tooltips': ['Page 1', 'Page 2', 'Page 3', 'Pgae 4']
@@ -84,8 +84,9 @@
 <body>
 	<ul id="menu">
 		<li data-menuanchor="page1" class="active"><a href="#page1">Home</a></li>
-		<li data-menuanchor="page2"><a href="#page2">Story</a></li>
-		<li data-menuanchor="page3"><a href="#page3">Location</a></li>
+		<li data-menuanchor="page2"><a href="#page2">About Us</a></li>
+		<li data-menuanchor="page3"><a href="#page3">Story</a></li>
+		<li data-menuanchor="page4"><a href="#page4">Location</a></li>
 	</ul>
 
 
@@ -99,35 +100,45 @@
 			<p class = "title">Alam Sutera Sport Center</p>
 
 	    </div>
-	    <div class="section" id ="section2" style="background-image: url(imgs/foto-wisuda.jpg);background-size: cover; background-position: center; ">
-	    	<div class="story" style="background-color:rgba(0, 0, 0, 0.8);">
+	    <div class="section" id ="section2">
+	    	
+			<div class="story" style="text-align: center;padding: 70px 0px;;">
+				<img src="imgs/foto-bxc.jpg" style="    width: 32em; float: left; padding-right: 1em;"/>
 	    		<div>
-				<h1>Tentang Wanda</h1>
+				<h1 class = "title">Tentang Wanda</h1>
 				<p>
 				Wanda Kinasih, atau yang lebih dikenal sebagai Wanda adalah anak pertama dari dua bersaudari. Wanita yang riang, penuh semangat, dan penuh perhatian. 
 				Mampu bergaul dengan berbagai jenis teman yang berbeda, dari yang senang bermain board game hingga yang senang jalan-jalan. Beberapa kali pernah 
 				traveling ke berbagai destinasi wisata. Selain sebagai pecinta alam, Wanda juga seorang pecinta hewan terutama kucing. Saat ini memelihara beberapa ekor kucing sehingga membuatnya terbiasa dengan keramaian yang terjadi sehari-hari.
 				</p>
 				<br/>
-				<h1>Tentang Dwi</h1>
+				<h1 class = "title">Tentang Dwi</h1>
 				<p>
 				Dwi, lelaki yang sabar dan tidak banyak berbicara. Meski tak banyak berbicara, ia memiliki beberapa lingkaran pertemanan yang cukup dekat dari teman sekolah dan kuliah.
 				Meski telah berbeda kota, mereka sering berkumpul saat pulang kampung ke Jambi. Dwi memiliki banyak koleksi game, figur anime dan komik. 
 				Dwi juga memelihara 2 kucing yang lincah. Mereka meramaikan suasana rumah Dwi. Selain bekerja di Pusilkom, Dwi juga mengajar di vokasi UI. Tak disangka, ia menjadi dosen favorit mahasiswa disana.
 				</p>
 				<br/>
-				<h1>Bagaimana Mereka Bertemu</h1>
+				</div>
+			</div>
+	    </div>
+		<div class="section" id ="section3">
+	    	<div class="story" style="text-align: center;">
+				<img src="imgs/foto-wisuda.jpg" style="    width: 32em; float: left; padding-right: 1em;"/>
+	    		<div>
+				<h1 class = "title">Bagaimana Mereka Bertemu</h1>
+				<br/>
 				<p>
 				Pertama kali bertemu saat keduanya bekerja di Pusat Ilmu Komputer UI. Sebagai sesama mahasiswa di Fakultas Ilmu Komputer UI keduanya tidak pernah saling mengenal, padahal hanya terpaut dua angkatan. Mungkin karena kehidupan keduanya saat menjadi mahasiswa termasuk bertolak belakang. Dwi lebih senang berkeliaran di lab komputer, sementara Wanda aktif di kegiatan organisasi kampus. Selama bekerja bersama di satu proyek keduanya mulai saling mengenal. Ternyata mereka sama-sama penyuka band Jepang L`Arc-en-Ciel, dan ketika band tersebut sedang mengadakan konser di Indonesia, Dwi dan Wanda saling bertemu di arena konser.
 				</p>
 				</div>
 			</div>
 	    </div>
-	    <div class="section" id="section3">
+		<div class="section" id="section4">
 	    	<div class="intro">
-	    		<p>Lokasi Acara</p>
-				<p>Alam Sutera Sport Center</p>
-				<br/><br/>
+	    		<p class = "title">Lokasi Acara</p>
+				<p class = "title">Alam Sutera Sport Center</p>
+				<br/>
 				<iframe class = "maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.181920775396!2d106.65539341374229!3d-6.239738195483314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69fbc070b4d71d%3A0x8b1a633faf5dbd46!2sAlam+Sutera+Sports+Center!5e0!3m2!1sen!2sid!4v1513509826525" width="500" height="400" frameborder="0" style="border:0" allowfullscreen></iframe>
 				<!--<div id="colors2"></div>
 	    		<div id="colors3"></div>-->
