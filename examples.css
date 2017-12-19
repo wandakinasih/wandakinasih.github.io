@@ -81,7 +81,7 @@ p{
 	color: #000;
 }
 #menu li.active a:hover{
-	/*color: #000;*/
+	color: #000;
 }
 #menu li:hover{
 	background: rgba(255,255,255, 0.8);
@@ -316,6 +316,7 @@ p{
  * --------------------------------------- */
 #section4 p{
 	opacity: 0.6;
+	color: white;
 }
 
 /* Overwriting fullPage.js tooltip color
