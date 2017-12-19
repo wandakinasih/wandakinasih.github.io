@@ -250,7 +250,7 @@ p{
 
 /* Section 2
  * --------------------------------------- */
- #section2 h1{
+ #section2 h1, #section25 h1{
     font-family: "Caviar Dreams", Verdana, Tahoma;
     font-weight: bold;
 }
@@ -345,38 +345,8 @@ p{
 	color: #bdbdbd;
 }
 
-@media screen and (max-width: 768px) {
-    /* For mobile phones: */
-    .story p{
-		font-size: 10px	;
-	}
-	
-	#menu li{
-		font-size: 10px	;
-		margin: 2px;
-		
-	}
-	
-	iframe.maps {
-		width: 80%;
-		height: 70%;
-	}
-	
-	#section3 h1 {
-		font-size: 1em;
-	}
-	
-	#section1 h1 {
-		font-size: 3em;
-	}
-	
-	#section1 p {
-		font-size: 1em;
-	}
-}
-
 .story h1{
-	font-size: 2em;
+	font-size: 1.5em;
 	color: #f2f2f2;
 }
 
@@ -400,6 +370,47 @@ p.title {
     font-family: "Caviar Dreams", Verdana, Tahoma;
 }
 
+#section2 .col-md-6, #section25 .col-md-6{
+	margin-top: 50px;
+}
+
 @media only screen and (min-width: 768px) {
 	
+	
+	
+}
+
+@media screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .story p{
+		font-size: 10px	;
+	}
+	
+	#menu li{
+		font-size: 10px	;
+		margin: 2px;
+		
+	}
+	
+	iframe.maps {
+		width: 80%;
+		height: 70%;
+	}
+	
+	#section3 h1 {
+		font-size: 1.5em;
+	}
+	
+	#section1 h1 {
+		font-size: 3em;
+	}
+	
+	#section1 p {
+		font-size: 1em;
+	}
+	
+	#section2 .col-md-6, #section25 .col-md-6{
+	margin-top: 20px;
+	}
+
 }
