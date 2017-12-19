@@ -68,8 +68,8 @@ p{
 	color: #000;
 	background:#fff;
 	background: rgba(255,255,255, 0.5);
-	-webkit-border-radius: 10px;
-            border-radius: 10px;
+	-webkit-border-radius: 5px;
+            border-radius: 5px;
 }
 #menu li.active{
 	background:#666;
@@ -88,7 +88,7 @@ p{
 }
 #menu li a,
 #menu li.active a{
-	padding: 9px 18px;
+	padding: 9px 9px;
 	display:block;
 }
 #menu li.active a{
