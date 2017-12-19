@@ -345,6 +345,22 @@ p{
 	color: #bdbdbd;
 }
 
+@media screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .story p{
+		font-size: 10px	;
+	}
+	
+	#menu li{
+		font-size: 10px	;
+	}
+	
+	iframe.maps {
+		width: 80%;
+		height: 70%;
+	}
+}
+
 .story h1{
 	font-size: 2em;
 	color: #f2f2f2;
@@ -370,7 +386,6 @@ p.title {
     font-family: "Caviar Dreams", Verdana, Tahoma;
 }
 
-iframe.maps{
-	width: 40em;
-	height: 30em;
+@media only screen and (min-width: 768px) {
+	
 }
