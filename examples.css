@@ -381,9 +381,9 @@ p{
 }
 
 .story{
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
-    padding: 1.1em;
+    padding: 45px 0px;
 }
 
 @font-face {
